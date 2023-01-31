@@ -1,0 +1,7 @@
+.metadata/
+.vscode/
+.svn/
+target/
+bin/
+doc/
+.settings/

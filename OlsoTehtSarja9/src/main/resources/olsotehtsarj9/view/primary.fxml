@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" prefHeight="480.0" prefWidth="640.0" spacing="20.0" xmlns="http://javafx.com/javafx/18"
+      xmlns:fx="http://javafx.com/fxml/1">
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+   <children>
+      <HBox prefHeight="265.0" prefWidth="576.0">
+         <children>
+            <VBox prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="17.0" prefWidth="161.0" text="Mistä" textAlignment="CENTER" />
+                  <ListView prefHeight="200.0" prefWidth="200.0">
+                     <padding>
+                        <Insets left="20.0" right="20.0" />
+                     </padding>
+                  </ListView>
+               </children>
+               <padding>
+                  <Insets left="20.0" right="20.0" />
+               </padding>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="161.0" text="Mihin" textAlignment="CENTER" />
+                  <ListView prefHeight="200.0" prefWidth="200.0">
+                     <padding>
+                        <Insets left="20.0" right="20.0" />
+                     </padding>
+                  </ListView>
+               </children>
+               <padding>
+                  <Insets left="20.0" right="20.0" />
+               </padding>
+            </VBox>
+            <VBox prefHeight="265.0" prefWidth="197.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="17.0" prefWidth="199.0" text="Määrä" />
+                  <TextField>
+                     <VBox.margin>
+                        <Insets bottom="20.0" top="20.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="27.0" prefWidth="104.0" text="Button">
+                     <VBox.margin>
+                        <Insets left="50.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Label alignment="CENTER" prefHeight="17.0" prefWidth="199.0" text="Tulos">
+                     <padding>
+                        <Insets top="50.0" />
+                     </padding>
+                  </Label>
+                  <TextField>
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                  </TextField>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</VBox>
